@@ -1,6 +1,11 @@
 // Instructions
 To set up a local development environment for basic HTML/CSS/JS applications follow the following steps
 
+0. Before starting, set up GitHub
+   Download GitHub desktop
+   Clone this repo
+   Create your own branch before modifying files (e.g., called "tom's branch")
+
 1. Open this folder with VSCode
    BSCode Menu -> Open Folder
    Select this folder ("vscode-template-basics")
