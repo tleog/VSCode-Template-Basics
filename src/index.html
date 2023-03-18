@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,9 +17,37 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 		/>
+
+		<!-- Import TailWind classes: https://nerdcave.com/tailwind-cheat-sheet -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						fontFamily: {
+							display: 'Montserrat',
+							body: 'Roboto',
+						},
+					},
+				},
+			};
+		</script>
 	</head>
 	<body>
 		<!-- Import script files to run -->
 		<script src="code.js"></script>
+
+		<!-- We'll put our content here -->
+		<main
+			class="w-full h-full flex flex-col justify-center items-center font-body font-xl font-bold"
+		>
+			<p id="exampleEle" class="font-display">Hello, World!</p>
+			<button
+				onclick="editOnPage('Now THATS web development!')"
+				class="p-2 bg-yellow-500 rounded"
+			>
+				Click me!
+			</button>
+		</main>
 	</body>
 </html>
