@@ -19,4 +19,26 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 10px solid #865217;
 }
+
+.tom {
+    background-color: #865217;
+    padding: 20px;
+    border-radius: 120px;
+    margin: 10px; 
+}
+
+.myButton {
+    color: rgb(0, 0, 0); font-size: 19px; line-height: 19px; padding: 21px; margin:10px; border-radius: 120px; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; background-color:#865217;border: 2px solid #865217; }
+    .myButton:hover {
+    background: #832a01; }
+    .myButton:active {
+    background: #7e4b08;}
+
+.myButton2 {
+    color: rgb(0, 0, 0); font-size: 19px; line-height: 19px; padding: 21px; margin:10px; border-radius: 120px; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; background-color:#865217;border: 2px solid #865217; }
+     .myButton:hover {
+     background: #832a01; }
+     .myButton:active {
+     background: #7e4b08;}
